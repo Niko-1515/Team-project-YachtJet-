@@ -6,17 +6,19 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 a {
@@ -26,6 +28,8 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 img {
@@ -33,3 +37,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+address {
+  font-style: normal
+}
+
+
