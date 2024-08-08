@@ -1,14 +1,17 @@
 /* HERO */
 .hero {
-  background: linear-gradient(360deg,
-      rgba(17, 19, 31, 0.8) 15.05%,
-      rgba(17, 19, 31, 0.8) 75.3%,
-      rgba(17, 19, 31, 0.8) 98.27%),
-    url(../img/hero/hero-mob-x1.jpg), url(../img/hero/hero-mob-x2.jpg);
+
+  padding-left: 32px;
+  padding-right: 32px;
   padding-top: 260px;
   padding-bottom: 302px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 375px;
+  background-image:
+    url(../img/hero/hero-mob-x1.jpg),
+    url(../img/hero/hero-mob-x2.jpg);
 }
 
 .conteiner-hero {
@@ -18,16 +21,12 @@
 }
 
 .titel-hero {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 24px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .tex-hero {
@@ -66,15 +65,14 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(360deg,
-        rgba(17, 19, 31, 0.8) 15.05%,
-        rgba(17, 19, 31, 0.8) 75.3%,
-        rgba(17, 19, 31, 0.8) 98.27%),
-      url(../img/hero/hero-tab-x1.jpg), url(../img/hero/hero-tab-x2.jpg);
+    background-image:
+      url(../img/hero/hero-tab-x1.jpg),
+      url(../img/hero/hero-tab-x2.jpg);
     padding-top: 280px;
     padding-bottom: 282px;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 768px;
+    padding-left: 140px;
+    padding-right: 139px;
   }
 
   .titel-hero {
@@ -82,10 +80,10 @@
   }
 
   .tex-hero {
+    padding-left: 202px;
+    padding-right: 202px;
     font-size: 16px;
     line-height: 1.4;
-    font-size: 12px;
-    line-height: 1.17;
     margin-bottom: 48px;
   }
 
@@ -94,5 +92,22 @@
     padding: 16px 40px;
     width: 179px;
     height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    background-image:
+      url(../img/hero/hero-desk-x1.jpg),
+      url(../img/hero/hero-desk-x2.jpg);
+    max-width: 1280px;
+  }
+
+  .titel-hero {
+    font-size: 80px;
+  }
+
+  .tex-hero {
+    margin-bottom: 48px;
   }
 }
