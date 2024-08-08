@@ -1,0 +1,41 @@
+.container {
+    max-width: 335px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+   .page-footer{
+    background-color: #1b414b;
+    padding: 150px  13px 0;
+    border-radius: 24px 24px 0 0;
+}
+
+.footer-content{
+display: flex;
+align-items: center;
+}
+
+.footer-logo{
+width: 74px;
+height: 24px;
+display: block;
+padding: ;
+} 
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+            max-width: 1340px;
+        }
+}
