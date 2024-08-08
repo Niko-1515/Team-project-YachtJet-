@@ -111,3 +111,16 @@
     margin-bottom: 48px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image:
+      url(../img/hero/hero-1440-x2.jpg),
+      url(../img/hero/hero-1440-x1.jpg);
+    max-width: 1440px;
+    padding-top: 235px;
+    padding-bottom: 215px;
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+}
