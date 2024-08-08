@@ -77,10 +77,6 @@
   .advantages-container {
     margin-top: 150px;
   }
-  .container {
-    min-width: 768px;
-    padding: 0 32px;
-  }
 
   .advantages-txt-container {
     padding: 90px 32px;
@@ -112,16 +108,15 @@
     font-size: 13px;
     line-height: 1.15;
   }
+
+  .advantages-img {
+    width: 100%;
+  }
 }
 
 /*--------Desk1280---------*/
 
 @media (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    padding: 0 50px;
-  }
-
   .advantages-container {
     display: flex;
     gap: 32px;
@@ -138,8 +133,8 @@
 
 /*--------Desk1440---------*/
 
-@media (min-width) {
-  .container {
-    min-width: 1440px;
+@media (min-width: 1440px) {
+  .advantages-img {
+    width: 540px;
   }
 }
