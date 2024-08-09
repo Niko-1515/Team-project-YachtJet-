@@ -27,9 +27,12 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
 
 .tex-hero {
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
@@ -76,12 +79,22 @@
   }
 
   .titel-hero {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     font-size: 70px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
   }
 
   .tex-hero {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
     margin-bottom: 48px;
   }
 
@@ -102,10 +115,22 @@
   }
 
   .titel-hero {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     font-size: 80px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
   }
 
   .tex-hero {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
     padding-left: 202px;
     padding-right: 202px;
     margin-bottom: 48px;
