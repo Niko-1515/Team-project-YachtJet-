@@ -1,6 +1,7 @@
 /* ======== COMMON STYLES ========*/
 .rent {
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    margin-top: 80px;
 }
 
 .common-subtitle {
@@ -95,6 +96,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .rent {
+        /* padding-top: 150px; */
+        margin-top: 150px;
+    }
+
     .rent-container {
         justify-content: center;
         gap: 100px;
