@@ -1,5 +1,38 @@
-<section class="wrapper">
-    <div class="container">
-        <p>- Rent a yacht</p>
+<section class="wrapper rent">
+    <div class="container rent-container">
+        <div class="rent-content">
+            <h2 class="common-subtitle">Rent a yacht now</h2>
+            <form class="rent-form">
+                <label class="rent-label" for="user-name"></label>
+                <input class="rent-form-element rent-input" type="text" name="user-name" placeholder="Full Name">
+                <label class="rent-label" for="user-email"></label>
+                <input class="rent-form-element rent-input" type="email" name="user-email" placeholder="Email"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                <label class="rent-label" for="user-tel"></label>
+                <input class="rent-form-element rent-input" type="tel" name="user-tel" placeholder="Phone number"
+                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$">
+                <label class="rent-label" for="user-comment"></label>
+                <textarea class="rent-form-element rent-textarea" name="user-comment" id="user-comment"
+                    placeholder="Comment"></textarea>
+                <button class="common-btn rent-btn" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="rent-thumb">
+            <picture>
+                <source srcset="/img/rent/rent1440-x1.jpg 1x,
+                        /img/rent/rent1440-x2.jpg 2x
+                      " media="(min-width:1440px)" />
+                <source srcset="/img/rent/rent-desk-x1.jpg 1x,
+                        /img/rent/rent-desk-x2.jpg 2x
+                      " media="(min-width:1280px)" />
+                <source srcset="/img/rent/rent-tab-x1.jpg 1x,
+                        /img/rent/rent-tab-x2.jpg 2x
+                      " media="(min-width:768px)" />
+                <source srcset="/img/rent/rent-mob-x1.jpg 1x,
+                        /img/rent/rent-mob-x2.jpg 2x
+                      " media="(max-width:767px)" />
+                <img class="rent-img" src="../img/rent/rent-mob-x1.jpg" alt="Yacht at night" />
+            </picture>
+        </div>
     </div>
 </section>
