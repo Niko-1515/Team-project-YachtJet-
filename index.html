@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/Team-project-YachtJet-/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-project-YachtJet-/assets/index-9d187a5b.css">
+    <link rel="stylesheet" href="/Team-project-YachtJet-/assets/index-42832eb3.css">
   </head>
   <body>
     <header>
@@ -191,9 +191,34 @@
 </section>
 
 
-      <section class="wrapper">
-    <div class="container">
-        <p>- Rent a yacht</p>
+      <section class="wrapper rent">
+    <div class="container rent-container">
+        <div class="rent-content">
+            <h2 class="common-subtitle">Rent a yacht now</h2>
+            <form class="rent-form">
+                <label class="rent-label" for="user-name"></label>
+                <input class="rent-form-element rent-input" type="text" name="user-name" placeholder="Full Name">
+                <label class="rent-label" for="user-email"></label>
+                <input class="rent-form-element rent-input" type="email" name="user-email" placeholder="Email"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                <label class="rent-label" for="user-tel"></label>
+                <input class="rent-form-element rent-input" type="tel" name="user-tel" placeholder="Phone number"
+                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$">
+                <label class="rent-label" for="user-comment"></label>
+                <textarea class="rent-form-element rent-textarea" name="user-comment" id="user-comment"
+                    placeholder="Comment"></textarea>
+                <button class="common-btn rent-btn" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="rent-thumb">
+            <picture>
+                <source srcset="/Team-project-YachtJet-/assets/rent1440-x1-d9652e5a.jpg 1x, /Team-project-YachtJet-/assets/rent1440-x2-100f2db7.jpg 2x" media="(min-width:1440px)" />
+                <source srcset="/Team-project-YachtJet-/assets/rent-desk-x1-6aa50c7e.jpg 1x, /Team-project-YachtJet-/assets/rent-desk-x2-dcb013e4.jpg 2x" media="(min-width:1280px)" />
+                <source srcset="/Team-project-YachtJet-/assets/rent-tab-x1-0bece44f.jpg 1x, /Team-project-YachtJet-/assets/rent-tab-x2-0eb468a7.jpg 2x" media="(min-width:768px)" />
+                <source srcset="/Team-project-YachtJet-/assets/rent-mob-x1-168d401a.jpg 1x, /Team-project-YachtJet-/assets/rent-mob-x2-4ca661fd.jpg 2x" media="(max-width:767px)" />
+                <img class="rent-img" src="../img/rent/rent-mob-x1.jpg" alt="Yacht at night" />
+            </picture>
+        </div>
     </div>
 </section>
       <section class="wrapper">
