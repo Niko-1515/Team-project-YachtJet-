@@ -124,6 +124,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
+    max-width: 768px;
     padding: 150px 0;
   }
 
@@ -194,6 +195,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .reviews {
+    max-width: 1280px;
+  }
+
   .reviews-title {
     max-width: 830px;
   }
@@ -242,6 +247,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .reviews {
+    max-width: 1440px;
+  }
+
   .reviews-list {
     gap: 32px;
   }
