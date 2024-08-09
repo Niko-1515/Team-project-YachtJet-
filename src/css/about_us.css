@@ -31,6 +31,8 @@
 }
 
 .about-page-text {
+  font-size: 12px;
+  line-height: 1.17;
   color: rgba(4, 3, 6, 0.4);
 }
 
@@ -88,6 +90,10 @@
   .about-page-title {
     margin-bottom: 0;
     max-width: 537px;
+  }
+
+  .about-page-subtitle {
+    padding-bottom: 20px;
   }
 
   .about-page-box {
