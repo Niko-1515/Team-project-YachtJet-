@@ -14,6 +14,7 @@
   height: 42px;
   left: 50%;
   transform: translateX(-50%);
+  transition: min-width 1s ease;
 }
 
 .header-logo {
