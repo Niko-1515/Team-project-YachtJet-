@@ -126,7 +126,7 @@
 
   .advantages-txt-container {
     padding: 90px 50px;
-    width: 716px;
+    min-width: 716px;
     margin: 0px;
   }
 }
@@ -136,5 +136,9 @@
 @media (min-width: 1440px) {
   .advantages-img {
     width: 540px;
+  }
+
+  .advantages-txt-container {
+    min-width: 768px;
   }
 }
