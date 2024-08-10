@@ -1,21 +1,123 @@
-.header {
-  padding: 20px 0;
+
+.header-container {
+  position: absolute;
+  z-index: 999;
+  padding: 0 20px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
 }
 
-.nav-list {
+.header-content {
+  background-color: #fbfbfb;
+  padding: 12px 20px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  width: 100%;
+  height: 42px;
 }
 
-.nav-link {
+.header-logo {
   font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.burger-btn {
+  display: flex;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
+
+.header-burger-icon {
+  fill: #1b414b;
+}
+
+.header-nav-list {
+  display: none;
+  gap: 4px;
+  
+}
+
+.header-nav-link {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  color: #fbfbfb;
+  background-color: rgba(27, 65, 75, 0.5);
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  background-color: #1b414b;
+}
+
+.header-addres-list {
+  display: none;
+  gap: 10px;
+  
+}
+
+.header-icon-addres {
+  fill: #1b414b;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-icon-addres:hover,
+.header-icon-addres:focus {
+  fill: #062730;
+}
+
+
+@media screen and (min-width: 375px){
+  .header-container {
+    width: 335px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+  }
+  .header-container {
+    min-width: 704px;
+    height: 48px;
+    top: 32px;
+  }
+  .header-nav-list {
+    display: flex;
+    
+  }
+  .header-addres-list {
+    display: flex;
+  }
+  .burger-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    width: 1080px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+      width: 1240px;
+    }
+ }

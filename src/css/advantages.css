@@ -1,0 +1,144 @@
+.advantages-container {
+  margin-top: 80px;
+}
+
+.advantages-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-txt-container {
+  border-radius: 24px;
+  background-color: #1b414b;
+  padding: 80px 20px;
+  max-width: 335px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.advantages-list-txt-first {
+  width: 238px;
+}
+
+.advantages-list-number {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  margin-bottom: 18px;
+}
+
+.advantages-line {
+  height: 2px;
+  border: none;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+  margin-bottom: 18px;
+  max-width: 292px;
+  margin-top: 0;
+}
+
+.advantages-list-txt {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+}
+
+.advantages-img {
+  border-radius: 24px;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*---Tab--------*/
+
+@media (min-width: 768px) {
+  .advantages-container {
+    margin-top: 150px;
+  }
+
+  .advantages-txt-container {
+    padding: 90px 32px;
+    max-width: 704px;
+    margin-bottom: 32px;
+  }
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    row-gap: 44px;
+  }
+
+  .advantages-list-txt-sekond {
+    width: 292px;
+  }
+
+  .advantages-list-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-list-number {
+    font-size: 32px;
+    margin-bottom: 18;
+  }
+
+  .advantages-list-txt {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+
+  .advantages-img {
+    width: 100%;
+  }
+}
+
+/*--------Desk1280---------*/
+
+@media (min-width: 1280px) {
+  .advantages-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .advantages-txt-container {
+    padding: 90px 50px;
+    min-width: 716px;
+    margin: 0px;
+  }
+}
+
+/*--------Desk1440---------*/
+
+@media (min-width: 1440px) {
+  .advantages-img {
+    width: 540px;
+  }
+
+  .advantages-txt-container {
+    min-width: 768px;
+  }
+}

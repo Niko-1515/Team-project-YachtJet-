@@ -1,0 +1,263 @@
+.reviews {
+  padding: 80px 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.reviews-application {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-wrap: wrap;
+  text-align: center;
+  max-width: 335px;
+  height: 140px;
+}
+
+.reviews-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 0.4;
+  text-wrap: wrap;
+  height: 42px;
+  max-width: 335px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.reviews-item,
+.reviews-item-2,
+.reviews-item-3 {
+  background: #fbfbfb;
+  border-radius: 24px;
+  padding: 32px 8px;
+  max-width: 335px;
+  height: 282px;
+  margin: 0;
+}
+
+.reviews-item-2 {
+  display: none;
+}
+
+.reviews-item-3 {
+  display: none;
+}
+
+.reviews-image {
+  border-radius: 72px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.reviews-subtitle-text {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+.reviews-card-subscribtion {
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 335px) {
+  .reviews-subtitle-text {
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .reviews-item {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+  }
+
+  .reviews-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-align: center;
+    opacity: 0.4;
+    text-wrap: wrap;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    max-width: 768px;
+    padding: 150px 0;
+  }
+
+  .reviews-application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 75px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 48px;
+    height: 144px;
+    max-width: 704px;
+  }
+
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-align: center;
+    opacity: 0.4;
+    height: 36px;
+    max-width: 571px;
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .reviews-item,
+  .reviews-item-2 {
+    max-width: 336px;
+  }
+
+  .reviews-item-2 {
+    display: block;
+  }
+
+  .victoria {
+    padding: 0 12px;
+  }
+
+  .reviews-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .reviews-subtitle-text {
+    max-width: 303px;
+  }
+
+  .non-standart {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews {
+    max-width: 1280px;
+  }
+
+  .reviews-title {
+    max-width: 830px;
+  }
+  .reviews-text {
+    line-height: 1.28;
+  }
+
+  .reviews-application {
+    margin-bottom: 75px;
+  }
+
+  .reviews-item,
+  .reviews-item-2,
+  .reviews-item-3 {
+    padding: 32px 28px;
+    max-width: 376px;
+  }
+
+  .reviews-item-3 {
+    display: block;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .reviews-subtitle-text {
+    max-width: 320px;
+  }
+
+  .victoria {
+    padding: 0;
+  }
+
+  .igor {
+    padding: 0 13.5px;
+  }
+
+  .non-standart {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews {
+    max-width: 1440px;
+  }
+
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-item,
+  .reviews-item-2,
+  .reviews-item-3 {
+    padding: 32px 36px;
+    max-width: 392px;
+  }
+}
