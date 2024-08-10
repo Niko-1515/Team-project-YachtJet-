@@ -119,7 +119,18 @@
 
 .mob-menu-item:focus,
 .mob-menu-item:hover {
-  background-color: #1b414b;
+  background-color: #FBFBFB;
+}
+
+.mob-menu-link:focus,
+.mob-menu-link:hover {
+  color: #1b414b;
+  line-height: 130%;
+text-transform: uppercase;
+}
+
+.mob-menu-one {
+  background-color: #1b414b;;
 }
 
 .mob-menu-link {
