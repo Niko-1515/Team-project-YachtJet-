@@ -145,6 +145,7 @@
 
 @media screen and (min-width: 1280px) {
     .rent-container {
+        justify-content: flex-end;
         flex-wrap: nowrap;
         flex-direction: row-reverse;
         gap: 50px;
