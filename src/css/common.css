@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   background-color: #0e1823;
   color: #fbfbfb;
@@ -33,11 +33,14 @@ body {
   overflow: hidden;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .wrapper {
     max-width: 768px;
     padding: 0 32px;
   }
+
   .container {
     max-width: 704px;
   }
@@ -48,6 +51,7 @@ body {
     max-width: 1280px;
     padding: 0 50px;
   }
+
   .container {
     max-width: 1180px;
   }
@@ -57,6 +61,7 @@ body {
   .wrapper {
     max-width: 1440px;
   }
+
   .container {
     max-width: 1340px;
   }
