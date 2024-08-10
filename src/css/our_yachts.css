@@ -78,15 +78,6 @@
   opacity: 0.4;
   white-space: nowrap;
 }
-
-.our-icon {
-  stroke: #040306;
-  stroke-opacity: 0.1;
-  margin-bottom: 16px;
-  align-items: start;
-  width: 100%;
-}
-
 .our-descript {
   display: flex;
   justify-content: space-between;
@@ -148,15 +139,26 @@
   background: #fbfbfb;
   color: #1b414b;
 }
-/* .our-btn:focus {
-  background: #fbfbfb;
-  color: #1b414b;
-} */
+
+.our-line-mob {
+  height: 1px;
+  border: none;
+  /* border-radius: 18px; */
+  background: #040306;
+  margin-bottom: 18px;
+  max-width: 272px;
+  margin-top: 0;
+  color: #040306;
+  opacity: 0.1;
+}
 
 @media screen and (min-width: 768px) {
   .wrapper {
     max-width: 768px;
     padding: 0 32px;
+  }
+  .yachts {
+    margin-top: 150px;
   }
   .container {
     max-width: 704px;
@@ -243,8 +245,20 @@
     font-size: 16px;
     width: 177px;
   }
-  .our-icon {
+  .our-icon-mobtab {
+    display: none;
+  }
+  .our-icon-desk {
+    display: block;
+    stroke: #040306;
+    stroke-opacity: 0.1;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    align-items: start;
     width: 313px;
+  }
+  .our-line-mob {
+    max-width: 313px;
   }
 }
 
@@ -261,5 +275,24 @@
   }
   .our-container {
     max-width: 1240px;
+  }
+  .our-icon-desk {
+    display: none;
+    stroke: #040306;
+    stroke-opacity: 0.1;
+    margin-bottom: 16px;
+    align-items: start;
+    width: 100%;
+  }
+  .our-icon-1440desk {
+    display: block;
+    stroke: #040306;
+    stroke-opacity: 0.1;
+    margin-bottom: 16px;
+    align-items: start;
+    width: 328px;
+  }
+  .our-line-mob {
+    max-width: 328px;
   }
 }
