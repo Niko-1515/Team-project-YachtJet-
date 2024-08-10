@@ -10,6 +10,8 @@
   background-size: cover;
   max-width: 375px;
   min-width: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-image:
     url(/img/hero/hero-mob-x1.jpg),
     url(/img/hero/hero-mob-x2.jpg);
