@@ -33,7 +33,7 @@
 .about-page-text {
   font-size: 12px;
   line-height: 1.17;
-  color: rgba(4, 3, 6, 0.4);
+  color: var(--text-color);
 }
 
 .about-page-photo {
