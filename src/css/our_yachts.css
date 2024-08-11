@@ -121,8 +121,8 @@
 .our-btn {
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
-  width: 141px;
-  height: 46px;
+  max-width: 141px;
+  max-height: 46px;
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
@@ -139,6 +139,11 @@
 .our-btn:hover {
   background: #fbfbfb;
   color: #1b414b;
+}
+
+.our-btn-txt {
+  padding: 14px 22px;
+  white-space: nowrap;
 }
 
 .our-line-mob {
