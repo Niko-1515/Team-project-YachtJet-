@@ -61,8 +61,11 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 40px;
+    padding-right: 48px;
     gap: 8px;
+
   }
+ 
   .footer-icon-soc {
     fill: #FBFBFB;
   }
@@ -119,12 +122,12 @@
     .footer-nav {
       padding-top: 50px;
       padding-left: 48px;
-      gap: 106px;
+      padding-right: 91px;
+      gap: 110px;
     }
     .footer-cont-soc {
       display: flex;
       align-items: center;
-      gap: 91px;
     }
     .footer-text {
       font-size: 32px;
