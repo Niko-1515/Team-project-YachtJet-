@@ -1,7 +1,57 @@
-.footer {
+
+.footer-wrap {
+    max-width: 375px;
+    min-width: 320px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.footer-cont {
+    max-width: 355px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-wrap {
+        max-width: 768px;
+        padding: 0 15px;
+    }
+
+    .footer-cont {
+        max-width: 736px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-wrap {
+        max-width: 1280px;
+        padding: 0 25px;
+    }
+
+    .footer-cont {
+        max-width: 1230px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-wrap {
+        max-width: 1440px;
+    }
+
+    .footer-cont {
+        max-width: 1390px;
+    }
+}
+
+
+
+/* .footer {
     padding-left: 10px;
     padding-right: 10px;
-  }
+  } */
+
+
   .footer-container {
     border-radius: 24px 24px 0px 0px;
     background:  #1B414B;
@@ -24,10 +74,10 @@
     gap: 5px;
   }
   .footer-logo {
-    color: #FBFBFB;
-    font-size: 14px;
     font-weight: 500;
+    font-size: 14px;
     letter-spacing: -0.03em;
+    color: #fbfbfb;
   }
   .footer-nav-list {
     display: flex;
@@ -35,8 +85,9 @@
   }
   .footer-nav-item-cont {
     border-radius: 8px;
-    background: rgba(251, 251, 251, 0.4);
-    max-width: 67px;
+    background: rgba(251, 251, 251, 0.3);
+    max-width: 66px;
+    max-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,36 +129,40 @@
     fill:rgba(251, 251, 251, 0.8);
   }
   .footer-text {
-    font-weight:400;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 18px;
     line-height: 1;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+
     margin: 40px auto 82px;
-    max-width: 260px;
+    max-width: 279px;
   }
   .footer-police {
     display: flex;
     justify-content: space-between;
-    color: rgba(251, 251, 251, 0.4);
-    text-align: center;
-    font-family: Inter;
+    max-width: 279px;
+    margin: 0 auto;
+  }
+
+  .footer-privacy {
+    font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.4);
   }
 
   @media screen and (min-width: 768px) {
-    .footer {
+    /* .footer {
       padding-left: 16px;
       padding-right: 16px;
-    }
+    } */
     .footer-container {
-      max-width: 768px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 736px;
+     padding: 50px 48px 20px;
     }
     .footer-logo {
       font-size: 20px;
@@ -141,19 +196,25 @@
   }
 
   @media screen and (min-width: 1280px) {
-    .footer {
+    /* .footer {
       padding-left: 25px;
       padding-right: 25px;
-    }
+    } */
     .footer-container {
       max-width: 1230px;
-      margin-left: auto;
-      margin-right: auto;
+     padding: 50px 75px 20px;
     }
-    .footer-nav {
+    /* .footer-nav {
     
       gap: 320px;
+    } */
+
+    .footer-text {
+    
+    max-width: 630px;
     }
+
+
     .footer-cont-soc {
       
       justify-content: space-between;
