@@ -8,15 +8,20 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 375px;
+    padding: 40px 30px 20px;
+  }
+  .footer-cont-soc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+
   }
   .footer-nav {
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    padding-top: 40px; 
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
   .footer-logo {
     color: #FBFBFB;
@@ -32,7 +37,6 @@
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.4);
     max-width: 67px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,9 +64,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
-    padding-right: 48px;
     gap: 8px;
+    align-self: center;
+    margin:  80px auto 0;
 
   }
  
@@ -81,9 +85,8 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    padding-bottom: 82px;
-    padding-left: 38px;
-    padding-right: 38px;
+    margin: 40px auto 82px;
+    max-width: 260px;
   }
   .footer-police {
     display: flex;
@@ -94,9 +97,6 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    padding-left: 54px;
-    padding-right: 53px;
-    padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
@@ -113,27 +113,26 @@
       font-size: 20px;
     }
     
+    .footer-icon-list {
+      margin: 0;
+    }
     .footer-nav-item-cont {
-      width: 91px;
+      max-width: 91px;
     }
     .footer-nav-item-link {
       padding: 15px 24px;
     }
-    .footer-nav {
-      padding-top: 50px;
-      padding-left: 48px;
-      padding-right: 91px;
-      gap: 110px;
-    }
+  
     .footer-cont-soc {
       display: flex;
       align-items: center;
+      flex-wrap: nowrap;
     }
     .footer-text {
       font-size: 32px;
-      padding-left: 48px;
-      padding-right: 48px;
-      padding-bottom: 99px;
+      max-width: 600px;
+      margin: 96px auto 99px;
+     
     }
     .footer-police {
       gap: 32px;
@@ -152,15 +151,11 @@
       margin-right: auto;
     }
     .footer-nav {
-      padding-left: 75px;
+    
       gap: 320px;
     }
     .footer-cont-soc {
-      padding-right: 75px;
+      
       justify-content: space-between;
-    }
-    .footer-text {
-      padding-left: 215px;
-      padding-right: 215px;
     }
   }
