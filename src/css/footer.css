@@ -12,7 +12,7 @@
   .footer-nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 39px; 
     padding-bottom: 80px;
     padding-left: 30px;
     padding-right: 30px;
