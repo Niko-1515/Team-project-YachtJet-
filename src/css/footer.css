@@ -34,15 +34,6 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .footer-wrap {
-        max-width: 1440px;
-    }
-
-    .footer-cont {
-        max-width: 1390px;
-    }
-}
 
 
 
@@ -137,7 +128,7 @@
     color: #fbfbfb;
 
     margin: 40px auto 82px;
-    max-width: 279px;
+    max-width: 260px;
   }
   .footer-police {
     display: flex;
@@ -220,3 +211,13 @@
       justify-content: space-between;
     }
   }
+
+    @media screen and (min-width: 1440px) {
+      .footer-wrap {
+        max-width: 1440px;
+      }
+  
+      .footer-cont {
+        max-width: 1390px;
+      }
+    }

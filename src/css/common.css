@@ -5,6 +5,10 @@ background-color:#0e1823;
 color: #fbfbfb;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*------ common ----*/
 
 .wrapper {
