@@ -1,0 +1,154 @@
+/* ======== COMMON STYLES ========*/
+.rent {
+    /* padding-top: 80px; */
+    margin-top: 80px;
+}
+
+.common-subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.common-btn {
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 44px;
+    background-color: #1b414b;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.common-btn:hover,
+.common-btn:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
+}
+
+/*? ======== RENT STYLES ======== */
+.rent-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.rent-btn {
+    font-size: 14px;
+    line-height: 1.29;
+    height: 46px;
+    min-width: 122px;
+}
+
+.rent-form-element {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #fbfbfb;
+    width: 100%;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding-left: 18px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-input {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 18px;
+}
+
+.rent-textarea {
+    resize: none;
+    padding-top: 14px;
+    height: 108px;
+    margin-bottom: 40px;
+}
+
+.rent-textarea::placeholder,
+.rent-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(251, 251, 251, 0.4);
+}
+
+.rent-input:focus,
+.rent-textarea:focus {
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.rent-thumb {
+    overflow: hidden;
+}
+
+.rent-img {
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .rent {
+        /* padding-top: 150px; */
+        margin-top: 150px;
+    }
+
+    .rent-container {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .rent-content {
+        max-width: 472px;
+    }
+
+    .common-subtitle {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    .rent-form-element {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .rent-textarea::placeholder,
+    .rent-input::placeholder {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .rent-input {
+        height: 54px;
+    }
+
+    .rent-textarea {
+        height: 116px;
+        margin-bottom: 50px;
+    }
+
+    .rent-btn {
+        font-size: 18px;
+        line-height: 1.1;
+        height: 56px;
+        min-width: 194px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .rent-container {
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        gap: 50px;
+    }
+
+}
