@@ -6,7 +6,7 @@
 }
 
 .about-container {
-  background-color: #fbfbfb;
+  background-color: var(--primary-white);
   border-radius: 24px;
 }
 
@@ -18,7 +18,7 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
-  color: #1b414b;
+  color: var(--primary-green);
   margin-bottom: 40px;
 }
 
@@ -26,7 +26,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
-  color: #1b414b;
+  color: var(--primary-green);
   margin-bottom: 20px;
 }
 
@@ -91,8 +91,6 @@
     margin-bottom: 0;
     max-width: 537px;
   }
-
-
 
   .about-page-box {
     max-width: 354px;
