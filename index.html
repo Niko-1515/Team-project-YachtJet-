@@ -437,13 +437,13 @@
             <h2 class="common-subtitle">Rent a yacht now</h2>
             <form class="rent-form">
                 <label class="rent-label" for="user-name"></label>
-                <input class="rent-form-element rent-input" type="text" name="user-name" id="user-name" placeholder="Full Name">
+                <input class="rent-form-element rent-input" type="text" name="user-name" id="user-name" placeholder="Full Name" pattern="([A-z0-9_.-]{1,80})" required>
                 <label class="rent-label" for="user-email"></label>
                 <input class="rent-form-element rent-input" type="email" name="user-email" id="user-email" placeholder="Email"
-                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
                 <label class="rent-label" for="user-tel"></label>
                 <input class="rent-form-element rent-input" type="tel" name="user-tel" id="user-tel" placeholder="Phone number"
-                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$">
+                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" required>
                 <label class="rent-label" for="user-comment"></label>
                 <textarea class="rent-form-element rent-textarea" name="user-comment" id="user-comment"
                     placeholder="Comment"></textarea>
