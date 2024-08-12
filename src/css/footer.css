@@ -41,6 +41,22 @@
     padding-left: 10px;
     padding-right: 10px;
   } */
+@media screen and (max-width: 340px) {
+  .footer-cont-soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+
+  .footer-nav-item-cont {
+    width: 66px;
+  }
+}
+
 
 
   .footer-container {
@@ -84,6 +100,11 @@
     justify-content: center;
     cursor: pointer;
   }
+
+ /* .footer-nav-item {
+   width: 66px;
+ } */
+
   .footer-nav-item-cont:hover,
   .footer-nav-item-cont:focus {
     background:#FBFBFB;
