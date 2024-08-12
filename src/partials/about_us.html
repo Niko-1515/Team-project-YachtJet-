@@ -1,5 +1,4 @@
-
-<section class="about-page wrapper" id="anchor1" >
+<section class="about-page wrapper" id="anchor1">
   <div class="container about-container">
     <div class="about-page-block">
       <h2 class="about-page-title">
@@ -19,32 +18,42 @@
         </p>
       </div>
     </div>
-    <picture class="about-page-picture">
-      <source
-        media="(max-width: 767px)"
-        srcset="/img/about/about-mob-x1.jpg 1x, /img/about/about-mob-x2.jpg 2x"
-      />
-      <source
-        media="(max-width: 1279px)"
-        srcset="/img/about/about-tab-x1.jpg 1x, /img/about/about-tab-x2.jpg 2x"
-      />
-      <source
-        media="(max-width: 1439px)"
-        srcset="
-          /img/about/about-desk-x1.jpg 1x,
-          /img/about/about-desk-x2.jpg 2x
-        "
-      />
-      <source
-        media="(min-width: 1440px)"
-        srcset="/img/about/about1440-x1.jpg 1x, /img/about/about1440-x2.jpg 2x"
-      />
-      <img
-        class="about-page-photo"
-        src="/img/about/about1440-x1.jpg"
-        alt="yacht"
-      />
-    </picture>
+    <div class="about-thumb">
+      <picture>
+        <source
+          srcset="
+            /img/about/about1440-x1.jpg 1x,
+            /img/about/about1440-x2.jpg 2x
+          "
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="
+            /img/about/about-desk-x1.jpg 1x,
+            /img/about/about-desk-x2.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            /img/about/about-tab-x1.jpg 1x,
+            /img/about/about-tab-x2.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/about/about-mob-x1.jpg 1x,
+            /img/about/about-mob-x2.jpg 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img
+          class="about-page-photo"
+          src="/img/about/about-mob-x1.jpg"
+          alt="yacht"
+        />
+      </picture>
+    </div>
   </div>
 </section>
-

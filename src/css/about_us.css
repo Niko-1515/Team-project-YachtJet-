@@ -1,17 +1,15 @@
-<!--  /* about-us */ -->
+/* about-us */
 
 .about-page {
   margin-top: -59px;
   padding-bottom: 80px;
 }
 
-.about-container {
-  background-color: #fbfbfb;
-  border-radius: 24px;
-}
-
 .about-page-block {
   padding: 40px 20px;
+  background-color: #fbfbfb;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
 }
 
 .about-page-title {
@@ -19,6 +17,7 @@
   font-size: 28px;
   line-height: 1;
   color: #1b414b;
+  letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
 
@@ -36,8 +35,10 @@
   color: rgba(4, 3, 6, 0.4);
 }
 
-.about-page-photo {
-  border-radius: 24px;
+.about-thumb {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -91,8 +92,6 @@
     margin-bottom: 0;
     max-width: 537px;
   }
-
-
 
   .about-page-box {
     max-width: 354px;
