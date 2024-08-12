@@ -95,13 +95,19 @@
   }
   .header-container {
     min-width: 704px;
-    height: 48px;
+    
     top: 32px;
   }
+
+  .header-content {
+    height: 48px;
+  }
+
   .header-nav-list {
     display: flex;
     
   }
+  
   .header-addres-list {
     display: flex;
   }
