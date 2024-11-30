@@ -14,7 +14,7 @@
  }
 
  .preloader-txt {
-     font-family: var(--font-family);
+     font-family: inherit;
      font-weight: 600;
      font-size: 12px;
      line-height: 156%;
@@ -31,7 +31,7 @@
      display: inline-block;
      position: relative;
      font-size: 10px;
-     font-family: var(--font-family);
+     font-family: inherit;
      box-sizing: border-box;
  }
 
@@ -198,5 +198,27 @@
 
      100% {
          box-shadow: 10px 0 white, 20px 0 white;
+     }
+ }
+
+ @media screen and (min-width: 768px) {
+
+     .preloader-txt {
+         font-size: 28px;
+     }
+
+     .loader {
+         font-size: 12px;
+     }
+ }
+
+ @media screen and (min-width: 1280px) {
+ 
+     .preloader-txt {
+         font-size: 48px;
+     }
+
+     .loader {
+         font-size: 14px;
      }
  }
