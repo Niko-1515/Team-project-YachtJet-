@@ -23,7 +23,7 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
-  window.matchMedia('(min-width: 1279px)').addEventListener('change', e => {
+  window.matchMedia('(min-width: 767px)').addEventListener('change', e => {
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
     openMenuBtn.setAttribute('aria-expanded', false);
