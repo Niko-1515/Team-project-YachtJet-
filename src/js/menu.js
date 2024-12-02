@@ -23,29 +23,10 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
-  window.matchMedia('(min-width: 767px)').addEventListener('change', e => {
+  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
     openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
-
-//  preloader
-let hellopreloader = document.querySelector('.preloader');
-function fadeOutnojquery(el) {
-  el.style.opacity = 1;
-  let interhellopreloader = setInterval(function () {
-    el.style.opacity = el.style.opacity - 0.05;
-    if (el.style.opacity <= 0.05) {
-      clearInterval(interhellopreloader);
-      hellopreloader.style.display = 'none';
-    }
-  }, 20);
-}
-
-window.onload = function () {
-  setTimeout(function () {
-    fadeOutnojquery(hellopreloader);
-  }, 2500);
-};
