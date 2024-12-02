@@ -31,8 +31,6 @@
   });
 })();
 
-
-
 //  preloader
 let hellopreloader = document.querySelector('.preloader');
 function fadeOutnojquery(el) {
