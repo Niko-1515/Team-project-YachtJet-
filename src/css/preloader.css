@@ -1,10 +1,9 @@
-/* Основной стиль прелоадера */
 .preloader {
   background: linear-gradient(
     360deg,
-    rgba(17, 19, 31, 1) 15.05%,
-    rgba(17, 19, 31, 1) 75.3%,
-    rgba(17, 19, 31, 1) 98.27%
+    rgb(2, 30, 38) 15.05%,
+    rgba(2, 30, 38, 1) 75.3%,
+    rgba(2, 30, 38, 1) 98.27%
   );
   left: 0;
   position: fixed;
@@ -26,13 +25,13 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  color: #f0f0f0;
+  color: #d6d6d6;
   margin: 0 auto;
 }
 
 .loader {
   margin: 0 auto;
-  color: #fff;
+  color: #ece9e6;
   display: inline-block;
   position: relative;
   font-size: 10px;
@@ -44,15 +43,14 @@
   opacity: 0;
   display: inline-block;
   animation: fadeIn 0.6s forwards;
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.7),
-    /* Мягкое белое свечение */ 0 0 6px rgba(255, 223, 0, 0.5),
-    /* Среднее приглушенное желтое свечение */ 0 0 10px rgba(255, 193, 7, 0.3); /* Легкое дальнее теплое свечение */
+  text-shadow: 0 0 2px rgba(217, 181, 116, 0.8),
+    0 0 6px rgba(217, 181, 116, 0.6), 0 0 10px rgba(217, 181, 116, 0.4);
 }
 
 .studio {
-  color: #1b414b;
-  text-shadow: 0 0 4px rgba(255, 223, 0, 0.8), 0 0 8px rgba(255, 223, 0, 0.6),
-    0 0 12px rgba(255, 223, 0, 0.4);
+  color: #3b746e; /* Світлий відтінок основного кольору */
+  text-shadow: 0 0 6px rgba(53, 121, 128, 0.6), 0 0 12px rgba(79, 159, 169, 0.4),
+    0 0 18px rgba(102, 183, 194, 0.3);
 }
 
 @keyframes fadeIn {
